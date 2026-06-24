@@ -417,7 +417,7 @@ const data = await res.json()
 return data
 }
 
-useEffect
+what is useEffect? => useEffect is side effect that interact with element that out of useEffect 
 
 17. Theory
 
@@ -439,7 +439,7 @@ useEffect
 64. What does an empty dependency array mean?
     useEffect(() => {
     console.log("Hello");
-    }, []);
+    }, [dependency array is here the value i using inside useEffect but the exist outside of useEffect]);
     => Run only once when the component mounts.
 
 65. Predict Output
